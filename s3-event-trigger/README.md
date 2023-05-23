@@ -10,7 +10,8 @@
 * Click on the `Create function` button.
 
 ### Create an S3 bucket.
-* Go to the AWS S3 console and click on the `Create bucket` button.
+* Go to the Search in the console and search s3
+* Click on the `Create bucket` button.
 * In the `Bucket name` field, enter a name for your bucket.
 * Select a region for your bucket.
 * Click on the `Create` button.
