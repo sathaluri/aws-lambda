@@ -1,6 +1,7 @@
 * To build or deploy the project, you will need to have the SAM CLI installed. 
 * The Postgres Database should have the table `shoppingcart.products`(You can find the schema in the scripts folder).
-*
+* Change the environment variables in template.yml
+  ![template](images/sam-api-post/image-1.png)
 
 
 * SAM (Serverless Application Model) project that creates a simple API that can be used to insert records into a Postgres table. 
