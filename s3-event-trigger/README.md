@@ -18,11 +18,11 @@
 
 ### Configure the Lambda function to be triggered by S3 events.
 * In the AWS Lambda console, click on the name of your function.
-* In the "Triggers" section, click on the "Add trigger" button.
-* In the "Event source" field, select "S3".
-* In the "Bucket" field, select the S3 bucket that you created in the previous step.
-* In the "Event type" field, select "ObjectCreated:Put".
-* Click on the "Add trigger" button.
+* In the `Triggers` section, click on the `Add trigger` button.
+* In the `Event source` field, select "S3".
+* In the `Bucket` field, select the S3 bucket that you created in the previous step.
+* In the `Event type` field, select "ObjectCreated:Put".
+* Click on the `Add trigger` button.
 
 ### Test the Lambda function.
 * In the AWS Lambda console, click on the name of your function.
