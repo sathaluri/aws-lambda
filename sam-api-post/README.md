@@ -1,7 +1,7 @@
 
 * SAM (Serverless Application Model) project that creates a simple API that can be used to insert records into a Postgres table. 
 * The project includes a Lambda function that is triggered by API Gateway requests. 
-* The Lambda function simply takes the message body from the request and inserts it into the DynamoDB table.
+* The Lambda function simply takes the message body from the request and inserts it into the Postgres table.
 * We can build the project by using the following command.
 * 
   ```shell
