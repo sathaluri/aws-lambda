@@ -7,12 +7,12 @@
   ```shell
   sam build
   ```
-* We can invole the lambda function locally by using the following command.
+* We can invoke the lambda function locally by using the following command.
 
   ```shell
   sam local invoke <options> <functionLogicalId>
   ```  
- * We can invole the lambda function locally by using the following command.
+ * We can invoke the lambda function locally by using the following command.
  
     ```shell
     sam local start-api <options>
