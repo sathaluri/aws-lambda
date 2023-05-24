@@ -14,7 +14,7 @@
 
 * Postgres database running inside docker.
 
-* The Postgres Database should have the table `shoppingcart.products`(You can find the schema in the scripts folder).
+* The Postgres Database should have the table `loans.Customer`(You can find the schema in the scripts folder).
 
 * Change the postgres `conn` variables in `api.get.py`
 
