@@ -1,4 +1,4 @@
-```
+```postgresql
   -- DROP SCHEMA shoppingcart;
   CREATE SCHEMA shoppingcart AUTHORIZATION tinitiate;
 
