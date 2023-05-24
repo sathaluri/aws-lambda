@@ -52,7 +52,7 @@
    sam local start-api --docker-network tinitiate
    ```
 
-* The API will be available at `http://localhost:3000/records`, and we can make a get request to insert data into the **tinitiate** database.
+* The API will be available at `http://localhost:3000/records`, and we can make a `GET` request data from the **tinitiate** database.
 * To test this `GET` API open the browser and enter `http://127.0.0.1:3000/records?column1=705&column2=15984`
 * Below is the json output which is returned for the above parameters.
     ```json
