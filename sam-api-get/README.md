@@ -1,4 +1,4 @@
-# Building and running sam-api-post-layers locally
+# Building and running sam-api-get locally
 
 ## Description
 
@@ -53,17 +53,9 @@
    ```
 
 * The API will be available at `http://localhost:3000/records`, and we can make a get request to insert data into the **tinitiate** database.
-* * For testing this API we have to use `Postman` or any other `API Testing tool`.
-* Please look at the image to how to do it with `Postman`.
-   ![template](/images/sam-api-get/postman-1.png)
-* Below is the sample json which has to be passed in Body as `raw`.
+* To test this `GET` API open the browser and enter `http://127.0.0.1:3000/records?column1=705&column2=15984`
+* Below is the json output which is returned for the above parameters.
     ```json
-      {
-          "id":101,
-          "category":"test", 
-          "name":"test2", 
-          "price":99.00
-      }
+      [[2, "Christopher Robertson", "2022-08-28", 705, "15984"]]
     ```
-* This should be the output.
-    ![template](/images/sam-api-get/postman-2.png)
+
