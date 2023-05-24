@@ -63,7 +63,7 @@
 * Change the directory to the cloned repository.
 
   ```bash
-  cd aws-lambda/sam-api-post-layers
+  cd sam-api-post-layers
   ```
 
 * Build the application using the following command.
