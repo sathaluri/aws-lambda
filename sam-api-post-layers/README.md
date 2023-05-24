@@ -14,7 +14,7 @@
 
 * Postgres database running inside docker.
 
-* The Postgres Database should have the table `shoppingcart.products`(You can find the schema in the scripts folder).
+* The Postgres Database should have the table `shoppingcart.products`(You can find the schema in the db-scripts/sam-api-post-layers folder).
 
 * Change the environment variables in `template.yml`
 
