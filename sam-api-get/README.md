@@ -53,3 +53,17 @@
    ```
 
 * The API will be available at `http://localhost:3000/records`, and we can make a get request to insert data into the **tinitiate** database.
+* * For testing this API we have to use `Postman` or any other `API Testing tool`.
+* Please look at the image to how to do it with `Postman`.
+   ![template](/images/sam-api-get/postman-1.png)
+* Below is the sample json which has to be passed in Body as `raw`.
+    ```json
+      {
+          "id":101,
+          "category":"test", 
+          "name":"test2", 
+          "price":99.00
+      }
+    ```
+* This should be the output.
+    ![template](/images/sam-api-get/postman-2.png)
